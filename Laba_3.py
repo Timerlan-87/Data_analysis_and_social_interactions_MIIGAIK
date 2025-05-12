@@ -1,5 +1,5 @@
 import networkx as nx
-import matplotlib.pyplot as plt # Импортируем для возможной визуализации (опционально)
+import matplotlib.pyplot as plt
 
 n = 60  # Количество вершин
 p = 0.45 # Вероятность появления ребра между любой парой вершин
