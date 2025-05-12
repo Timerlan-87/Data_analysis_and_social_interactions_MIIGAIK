@@ -15,7 +15,7 @@ for i in range(1, 16):
     if i > 1:
         G.add_edge(i, i - 1)
 
-# Центральная группа (16-35) — клика + связи с соседями
+# Центральная группа (16-35)
 for i in range(16, 36):
     G.add_node(i)
     for j in range(16, i):
